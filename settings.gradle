@@ -1,0 +1,5 @@
+rootProject.name = "demondk"
+include ':app'
+include ':opencv'
+ def opencvsdk='C:\\Users\\Rajnish\\Downloads\\opencv-4.6.0-android-sdk\\OpenCV-android-sdk'
+project(':opencv').projectDir =  file(opencvsdk + '/sdk')
